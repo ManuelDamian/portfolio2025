@@ -1,0 +1,67 @@
+{
+  "title": "Mis Habilidades",
+  "sectionTitle" : "Let me help you",
+  "description": "A lo largo de mi trayectoria profesional, he tenido el privilegio de colaborar en equipos diversos donde he aprendido la importancia del trabajo en equipo efectivo. He utilizado una amplia variedad de herramientas a lo largo de los años, desde tecnologías de desarrollo de vanguardia hasta potentes aplicaciones de gestión de proyectos. Mi compromiso es aportar a cada proyecto no solo mi experiencia, sino también mi pasión, dedicación y habilidades. Estoy convencido de que, trabajando juntos y aprovechando nuestras fortalezas individuales, podemos lograr resultados excepcionales. Algunas de las herramientas que utilizo incluyen:",
+  "skills" : [
+    {
+      "skillname" : "JavaScript"
+    },
+    {
+      "skillname" : "TypeScript"
+    },
+    {
+      "skillname" : "React"
+    },
+    {
+      "skillname" : "Angular"
+    },
+    {
+      "skillname" : "Node.js"
+    },
+    {
+      "skillname" : "Redux"
+    },
+    {
+      "skillname" : "HTML"
+    },
+    {
+      "skillname" : "Bootstrap"
+    },
+    {
+      "skillname" : "CSS"
+    },
+    {
+      "skillname" : "Material UI"
+    },
+    {
+      "skillname" : "Express"
+    },
+    {
+      "skillname" : "Git"
+    },
+    {
+      "skillname" : "Bitbucket"
+    },
+    {
+      "skillname" : "SourceTree"
+    },
+    {
+      "skillname" : "Postman"
+    },
+    {
+      "skillname" : "Jira"
+    },
+    {
+      "skillname" : "Android Studio"
+    },
+    {
+      "skillname" : "UNIX/CLI"
+    },
+    {
+      "skillname" : "Docker"
+    },
+    {
+      "skillname" : "Java"
+    }
+  ]
+}

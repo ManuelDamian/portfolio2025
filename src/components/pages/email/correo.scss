@@ -1,0 +1,91 @@
+.app-mail-container {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.mail-container {
+  width: 80vw;
+  display: flex;
+  background-color: var(--mainbg-color);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contacttittle {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 30px;
+  border-left: 3px solid var(--accent-color);
+}
+
+.mail-info-section {
+  width: 50%;
+}
+
+.mail-submit-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  gap: 1rem;
+  margin: 20px 20px 20px 20px;
+  padding: 3.5rem 3rem;
+  align-items: center;
+  background: #343434;
+}
+
+.formInput {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  background-color: var(--contactButtonColor);
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--colorButtonText);
+  padding: 0.9rem 1.5rem;
+  border: 2px solid var(--bg-color-3);
+  border-radius: 17px;
+  outline: none;
+}
+
+.formTextArea {
+  resize: none !important;
+  min-height: 170px;
+  display: inline-block;
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--colorButtonText);
+  padding: 0.9rem 1.5rem;
+  border: 2px solid var(--bg-color-3);
+  border-radius: 17px;
+  background-color: var(--contactButtonColor);
+  outline: none;
+}
+
+.buttonsend {
+  display: inline-block;
+  background-color: var(--main-color-1);
+  color: rgb(255, 255, 255);
+  font-size: 0.85rem;
+  width: 112%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 17px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0.9rem 1.75rem;
+  transition: 0.3s;
+  border-color: white;
+}
+
+.formcardtittle {
+  color: var(--navtext);
+}

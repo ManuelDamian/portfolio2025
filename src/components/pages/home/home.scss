@@ -1,0 +1,112 @@
+.app-home-container {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+}
+
+.home-container {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 975px) {
+    flex-direction: column-reverse;
+
+    .pictureContainer {
+      display: flex;
+      justify-content: center;
+    }
+
+    .picture {
+      height: 280px;
+      width: 280px;
+    }
+  }
+
+  @media (max-width: 820px) {
+    .picture {
+      max-height: none;
+      max-width: none;
+      height: 280px;
+      width: 280px;
+    }
+
+    .jobInfo {
+      margin-top: 0px;
+    }
+  }
+}
+
+.home-photo-section,
+.home-tittle-secction {
+  flex: 1;
+  padding: 1rem;
+}
+
+//* Home info section
+
+.home-tittle-secction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 975px) {
+  .home-tittle-secction {
+    align-items: flex-start;
+  }
+}
+
+.jobInfo {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 30px;
+  border-left: 3px solid var(--accent-color);
+}
+.contactbutton {
+  background-color: var(--contactButtonColor);
+  color: var(--colorButtonText);
+  border-radius: 25px;
+  padding: 0.9rem 1.75rem;
+}
+
+.homeBtnsContainer {
+  height: 140px;
+  display: flex;
+  align-items: center;
+}
+
+//* picture style section
+
+.home-photo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pictureContainer {
+  line-height: 0px;
+}
+
+.picture {
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  max-width: 446px;
+  max-height: 477px;
+  border: 8px solid;
+  border-color: var(--picture-border);
+  border-radius: 50%;
+}
+
+.downloadButton {
+  color: var(--colorButtonText);
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.downloadButton:hover {
+  color: var(--accent-color);
+}

@@ -1,0 +1,85 @@
+.app-work-container {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.hello {
+  height: 100%;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--mainbg-color);
+}
+
+.worktittle {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 30px;
+  border-left: 3px solid var(--accent-color);
+}
+
+.workdescription {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.jobs-cards-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 98%;
+  margin-top: 1rem;
+  height: 350px;
+}
+
+.work-jobs-section {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.work-jobs-section::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+.work-jobs-section::-webkit-scrollbar-track {
+  background: var(--bg-color) !important;
+}
+
+.work-jobs-section::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 10px;
+}
+
+.work-jobs-section::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 212, 56, 0.6);
+  opacity: 0.6px;
+}
+
+.job-card {
+  background: var(--cardback);
+  color: var(--cardtext);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.jobname {
+  font-weight: 500;
+  font-size: 24px;
+  margin-block-end: 0;
+}
+
+.jobdate {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.jobposition {
+  font-weight: 500;
+  font-size: 22px;
+}

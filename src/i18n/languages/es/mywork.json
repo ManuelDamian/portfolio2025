@@ -1,0 +1,46 @@
+{
+  "tittle": "Experiencia",
+  "description": "Desarrollador front-end apasionado por la creación de aplicaciones fáciles de usar. Con experiencia en React, Angular, y Node.js. Centrado en ofrecer soluciones prácticas para el mundo real utilizando pilas de tecnología (stacks) modernas como TypeScript y Bootstrap.",
+  "jobs": [
+    {
+      "name": "NeonDomain",
+      "date": "Mar 2024 – Ago 2025",
+      "position": "Desarrollador Junior Full-Stack"
+    },
+    {
+      "name": "VoolcanCode",
+      "date": "Ago 2023 – Mar 2024",
+      "position": "Project Manager (Freelance)"
+    },
+    {
+      "name": "Touch of Tech",
+      "date": "May 2023 – Mar 2024",
+      "position": "Desarrollador Front-End (Freelance)"
+    },
+    {
+      "name": "AgileThought",
+      "date": "Ago 2021 – Sep 2023",
+      "position": "Desarrollador de software"
+    },
+    {
+      "name": "Empleado Autonomo (Freelancer) ",
+      "date": "Ago 2021 – Sep 2023",
+      "position": "Desarrollador Front-End (Freelancer)"
+    },
+    {
+      "name": "Softtek",
+      "date": "Nov 2019 – Jun 2020",
+      "position": "Ingeniero de Software"
+    },
+    {
+      "name": "TCS",
+      "date": "May 2017 – Nov 2019",
+      "position": "Ingeniero de Software"
+    },
+    {
+      "name": "Rasoft",
+      "date": "Dic 2015 – Abr 2017",
+      "position": "Desarrollador Android"
+    }
+  ]
+}

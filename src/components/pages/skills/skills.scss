@@ -1,0 +1,81 @@
+.app-skills-container {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+.skills-main-container {
+  height: 100%;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--mainbg-color);
+}
+
+.skilltittle {
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 30px;
+  border-left: 3px solid var(--accent-color);
+}
+
+.skilldescription {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.skills-cards-container {
+  display: grid;
+  height: 300px;
+  margin-bottom: 10px;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  width: 98%;
+  margin-top: 1rem;
+}
+
+.skill-card {
+  background: var(--cardback);
+  color: var(--cardtext);
+  padding: 0px;
+  height: 135px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill-card-text {
+  margin-bottom: 0px;
+}
+
+.skils-section {
+  overflow: auto;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.skils-section::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+.skils-section::-webkit-scrollbar-track {
+  background: var(--bg-color) !important;
+}
+
+.skils-section::-webkit-scrollbar-thumb {
+  background: var(--accent-color);
+  border-radius: 10px;
+}
+
+.skils-section::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 212, 56, 0.6);
+  opacity: 0.6px;
+}

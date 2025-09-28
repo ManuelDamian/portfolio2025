@@ -1,0 +1,12 @@
+{
+  "title": "Contact me",
+  "sectionTitle" : "Les's Work together!",
+  "description": "I hope my profile aligns with your interests and allows us to work together. If I've made a positive impression, please feel free to send me a message.",
+  "email": "manueldamian@outlook.com",
+  "cardtitle": "Send me a message",
+  "cardnameinput": "Your Name",
+  "cardemailinput": "Your Email",
+  "cardsubjectinput": "Your Subject",
+  "cardmessageinput": "Your Message",
+  "cardbutton": "Send"
+}

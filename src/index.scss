@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
+//* Temas con variables CSS
+.theme-dark {
+  --bg-color: #242424;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --link-color: #646cff;
+  --link-hover: #535bf2;
+  --button-bg: #535bf2;
+  --navbar-bg: #1a1a1a;
+  --accent-color: #ffd438;
+  --mainbg-color: #242424;
+  --picture-border: #ffffff;
+  --cardback: #fffffa;
+  --cardtext: #242424;
+  --navtext: #ffffff;
+  --contactButtonColor: #242424;
+  --colorButtonText: #ffffff;
+}
+
+.theme-light {
+  --bg-color: #ffffff;
+  --text-color: #242424;
+  --link-color: #646cff;
+  --link-hover: #747bff;
+  --button-bg: #f9f9f9;
+  --navbar-bg: #1a1a1a;
+  --accent-color: #ffd438;
+  --mainbg-color: #fffffa;
+  --picture-border: #242424;
+  --cardback: #242424;
+  --cardtext: #fffffa;
+  --navtext: #ffffff;
+  --contactButtonColor: #242424;
+  --colorButtonText: #ffffff;
+}
+
+//* Variables globales y tipografía
+:root {
+  font-family: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: 3s !important;
+}
+//* Estilos base
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  transition: background-color 0.8s ease, color 0.8s ease;
+}
+
+a {
+  font-weight: 500;
+  color: var(--link-color);
+  text-decoration: inherit;
+
+  &:hover {
+    color: var(--link-hover);
+  }
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-bg);
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  &:hover {
+    border-color: var(--link-color);
+  }
+}

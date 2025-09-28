@@ -1,0 +1,12 @@
+{
+  "title": "Contáctame",
+  "sectionTitle" : "¡Trabajemos juntos!",
+  "description": "Espero que mi perfil se alinee con sus intereses y nos permita colaborar. Si he causado una impresión positiva, no dude en enviarme un mensaje.",
+  "email": "manueldamian@outlook.com",
+  "cardtitle": "Mandame un manesaje",
+  "cardnameinput": "Tu Nombre:",
+  "cardemailinput": "Tu Correo:",
+  "cardsubjectinput": "Tu Asunto:",
+  "cardmessageinput": "Tu Mensaje:",
+  "cardbutton": "Enviar"
+}

@@ -1,0 +1,38 @@
+.app-navbar-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navbar-bg);
+}
+
+.navbarInfo {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainmenustyle {
+  display: flex;
+}
+
+.hamburgermenustyle {
+  padding-left: 28px;
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .mainmenustyle {
+    display: none;
+  }
+
+  .hamburgermenustyle {
+    display: block;
+  }
+}
+
+.langAndThemeChangerContainer {
+  margin-right: 28px;
+}

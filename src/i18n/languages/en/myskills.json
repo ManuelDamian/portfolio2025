@@ -1,0 +1,67 @@
+{
+  "title": "My Skills",
+  "sectionTitle" : "Let me help you",
+  "description": "Throughout my professional journey, I have had the privilege of collaborating in diverse teams where I've learned the importance of effective teamwork. I have used a wide variety of tools over the years, from cutting-edge development technologies to powerful project management applications. My commitment is to bring not only my experience but also my passion, dedication, and skills to every project. I am convinced that by working together and leveraging our individual strengths, we can achieve exceptional results. Some of the tools I use include:",
+  "skills" : [
+    {
+      "skillname" : "JavaScript"
+    },
+    {
+      "skillname" : "TypeScript"
+    },
+    {
+      "skillname" : "React"
+    },
+    {
+      "skillname" : "Angular"
+    },
+    {
+      "skillname" : "Node.js"
+    },
+    {
+      "skillname" : "Redux"
+    },
+    {
+      "skillname" : "HTML"
+    },
+    {
+      "skillname" : "Bootstrap"
+    },
+    {
+      "skillname" : "CSS"
+    },
+    {
+      "skillname" : "Material UI"
+    },
+    {
+      "skillname" : "Express"
+    },
+    {
+      "skillname" : "Git"
+    },
+    {
+      "skillname" : "Bitbucket"
+    },
+    {
+      "skillname" : "SourceTree"
+    },
+    {
+      "skillname" : "Postman"
+    },
+    {
+      "skillname" : "Jira"
+    },
+    {
+      "skillname" : "Android Studio"
+    },
+    {
+      "skillname" : "UNIX/CLI"
+    },
+    {
+      "skillname" : "Docker"
+    },
+    {
+      "skillname" : "Java"
+    }
+  ]
+}
